@@ -1,0 +1,461 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Sun May 22 06:12:10 2022
+
+# Variables
+
+# environment
+GDK_BACKEND = x11
+# environment
+LC_ALL = C
+# environment
+NO_AT_BRIDGE = 1
+# environment
+SNAP_INSTANCE_KEY = 
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# environment
+CSF_EXCEPTION_PROMPT = 1
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-a5dce43e-fc73-4181-998a-a484ec24d2a6.sock
+# environment
+CSF_XmlOcafResource = /usr/share/opencascade/resources/XmlOcafResource
+# environment
+LC_NAME = de_DE.UTF-8
+# environment
+LC_NUMERIC = de_DE.UTF-8
+# environment
+VSCODE_CWD = /home/nick
+# environment
+MMGT_CLEAR = 1
+# environment
+CSF_XCAFDefaults = /usr/share/opencascade/resources/StdResource
+# environment
+CSF_PluginDefaults = /usr/share/opencascade/resources/StdResource
+# environment
+CASROOT = /usr
+# environment
+LC_ADDRESS = de_DE.UTF-8
+# default
+MAKE_COMMAND := make
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+SNAP_INSTANCE_NAME = code
+# environment
+GDK_PIXBUF_MODULEDIR = /snap/code/97/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/nick/Documents/HSRM/HWP2/Abgabe1
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LSCOLORS = Gxfxcxdxbxegedabagacad
+# environment
+MAIL = /var/spool/mail/nick
+# environment
+XDG_DATA_DIRS = /home/nick/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+# environment
+OLDPWD = /home/nick
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = /home/nick/.config/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+# environment
+XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session0
+# environment
+CSF_ShadersDirectory = /usr/share/opencascade/resources/Shaders
+# environment
+LANG = C
+# environment
+XAUTHORITY = /home/nick/.Xauthority
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# makefile (from 'Makefile', line 6)
+INLCUDE = akku.h position.h drohne.h
+# makefile
+CURDIR := /home/nick/Documents/HSRM/HWP2/Abgabe1
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# default
+.SHELLFLAGS := -c
+# environment
+CSF_MDTVTexturesDirectory = /usr/share/opencascade/resources/Textures
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+XDG_SESSION_DESKTOP = cinnamon
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# environment
+SNAP_REEXEC = 
+# automatic
+@F = $(notdir $@)
+# environment
+ZSH = /home/nick/.oh-my-zsh
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 2326
+# environment
+XDG_SESSION_TYPE = x11
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+CSF_XSMessage = /usr/share/opencascade/resources/XSMessage
+# environment
+SAL_USE_VCLPLUGIN = gtk
+# environment
+BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
+# makefile (from 'Makefile', line 5)
+FLAGS = -Wall -g
+# environment
+DRAWDEFAULT = /usr/share/opencascade/resources/DrawResources/DrawDefault
+# environment
+SESSION_MANAGER = local/laptop:@/tmp/.ICE-unix/1518,unix/laptop:/tmp/.ICE-unix/1518
+# automatic
+*F = $(notdir $*)
+# environment
+QT_QPA_PLATFORMTHEME = qt5ct
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+CSF_SHMessage = /usr/share/opencascade/resources/SHMessage
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+PLATFORMIO_CALLER = vscode
+# environment
+DOTNET_BUNDLE_EXTRACT_BASE_DIR = /home/nick/.cache/dotnet_bundle_extract
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# environment
+SHLVL = 1
+# environment
+MOZ_USE_XINPUT2 = 1
+# environment
+CSF_TObjDefaults = /usr/share/opencascade/resources/StdResource
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+SNAP_COOKIE = OqzC5u6xhZSvFy__I6HEPcuk13oGb1elegkqW97wLlV6kIOjZG10
+# environment
+PATH = /home/nick/.local/bin:/home/nick/.cargo/bin:/home/nick/.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/home/nick/.dotnet/tools:/var/lib/flatpak/exports/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin:/usr/lib/jvm/default/bin
+# default
+MAKEFILES := 
+# environment
+LC_MONETARY = de_DE.UTF-8
+# environment
+CSF_OCCTResourcePath = /usr/share/opencascade/resources
+# environment
+MOTD_SHOWN = pam
+# automatic
+^F = $(notdir $^)
+# environment
+SNAP_USER_COMMON = /home/nick/snap/code/common
+# environment
+CINNAMON_VERSION = 5.2.7
+# environment
+LC_TIME = de_DE.UTF-8
+# environment
+SNAP = /snap/code/97
+# environment
+SNAP_REVISION = 97
+# environment
+SNAP_REAL_HOME = /home/nick
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+CSF_StandardLiteDefaults = /usr/share/opencascade/resources/StdResource
+# environment
+CSF_STEPDefaults = /usr/share/opencascade/resources/XSTEPResource
+# environment
+LC_TELEPHONE = de_DE.UTF-8
+# automatic
+?F = $(notdir $?)
+# makefile (from 'Makefile', line 3)
+NAME = program
+# environment
+XDG_SEAT = seat0
+# environment
+NO_PROXY = 127.0.0.1
+# environment
+XDG_CURRENT_DESKTOP = X-Cinnamon
+# environment
+CSF_MIGRATION_TYPES = /usr/share/opencascade/resources/StdResource/MigrationSheet.txt
+# environment
+LS_COLORS = 
+# automatic
++F = $(notdir $+)
+# environment
+XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
+# environment
+LESS = -R
+# environment
+DESKTOP_SESSION = cinnamon
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = X-Cinnamon
+# makefile (from 'Makefile', line 7)
+OBJECTS = akku.cpp position.cpp drohne.cpp testbench.cpp
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+LOGNAME = nick
+# environment
+CSF_LANGUAGE = us
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /var/lib/snapd/desktop/applications/code_code.desktop
+# environment
+PLATFORMIO_PATH = /home/nick/.platformio/python3/bin:/home/nick/.local/bin:/home/nick/.cargo/bin:/home/nick/.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/home/nick/.dotnet/tools:/var/lib/flatpak/exports/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin:/usr/lib/jvm/default/bin
+# environment
+SNAP_ARCH = amd64
+# environment
+XDG_VTNR = 7
+# makefile
+.DEFAULT_GOAL := program
+# environment
+CSF_TObjMessage = /usr/share/opencascade/resources/TObj
+# environment
+EDITOR = /usr/bin/nano
+# environment
+DISPLAY = :0
+# environment
+USER = nick
+# default
+MAKE_VERSION := 4.3
+# environment
+DISABLE_WAYLAND = 1
+# environment
+SNAP_DATA = /var/snap/code/97
+# environment
+SNAP_CONTEXT = OqzC5u6xhZSvFy__I6HEPcuk13oGb1elegkqW97wLlV6kIOjZG10
+# environment
+LC_MEASUREMENT = de_DE.UTF-8
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 2288
+# environment
+PAGER = less
+# environment
+_ = /usr/bin/make
+ 
+# environment
+LC_PAPER = de_DE.UTF-8
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+GDK_PIXBUF_MODULE_FILE = /home/nick/snap/code/common/.cache/gdk-pixbuf-loaders.cache
+# environment
+GTK_OVERLAY_SCROLLING = 1
+# environment
+CSF_DrawPluginDefaults = /usr/share/opencascade/resources/DrawResources
+# environment
+CSF_IGESDefaults = /usr/share/opencascade/resources/XSTEPResource
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+PLATFORMIO_IDE = 2.4.3
+# environment
+GTK2_RC_FILES = /home/nick/.gtkrc-2.0
+# environment
+HOME = /home/nick
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+DRAWHOME = /usr/share/opencascade/resources/DrawResources
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-dc656a11-1.67.2-main.sock
+# environment
+SNAP_NAME = code
+# environment
+HG = /usr/bin/hg
+# environment
+GSETTINGS_SCHEMA_DIR = /snap/code/97/usr/share/glib-2.0/schemas
+# environment
+XDG_SESSION_ID = 2
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# environment
+SNAP_VERSION = c3511e6c
+# default
+SUFFIXES := 
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+SNAP_COMMON = /var/snap/code/common
+# environment
+XDG_GREETER_DATA_DIR = /var/lib/lightdm-data/nick
+# environment
+CSF_StandardDefaults = /usr/share/opencascade/resources/StdResource
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink guile load
+# makefile (from 'Makefile', line 4)
+CC = g++
+# environment
+SNAP_USER_DATA = /home/nick/snap/code/97
+# environment
+DOTNET_ROOT = /usr/share/dotnet
+# environment
+GDMSESSION = cinnamon
+# environment
+LC_IDENTIFICATION = de_DE.UTF-8
+# environment
+SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
+# variable set hash-table stats:
+# Load=167/1024=16%, Rehash=0, Collisions=15/201=7%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 66309, inode 10496752): 11 files, no impossibilities.
+
+# 11 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+%.o: %.c
+#  recipe to execute (from 'Makefile', line 14):
+		$(CC) $(FLAGS) -c -o $@ $<
+
+# 1 implicit rules, 0 (0.0%) terminal.
+# Files
+
+# Not a target:
+testbench.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+akku.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-21 14:01:29.516509051
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 20):
+	rm $(NAME) *.o
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+position.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+run: program
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 17):
+	./$(NAME)
+
+# Not a target:
+drohne.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: run clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+program: akku.cpp position.cpp drohne.cpp testbench.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 10):
+	$(CC) $(FLAGS) -o $(NAME) $(OBJECTS)
+	touch object.o
+
+# files hash-table stats:
+# Load=12/1024=1%, Rehash=0, Collisions=2/30=7%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 22 / storage = 184 B / avg = 8 B
+# current buf: size = 8162 B / used = 184 B / count = 22 / avg = 8 B
+
+# strcache performance: lookups = 39 / hit rate = 43%
+# hash-table stats:
+# Load=22/8192=0%, Rehash=0, Collisions=0/39=0%
+# Finished Make data base on Sun May 22 06:12:10 2022
+
+ 

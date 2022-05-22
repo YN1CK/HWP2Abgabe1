@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/nick/Documents/HSRM/HWP2/Abgabe1'
+g++ -Wall -g -o program akku.cpp position.cpp drohne.cpp testbench.cpp
+touch object.o
+make: Leaving directory '/home/nick/Documents/HSRM/HWP2/Abgabe1'
+ 
