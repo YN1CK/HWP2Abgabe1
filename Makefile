@@ -14,7 +14,7 @@ $(NAME): $(OBJECTS)
 		$(CC) $(FLAGS) -c -o $@ $<
 
 run: $(NAME)
-	./$(NAME)
+	./$(NAME); make clean
 
 clean:
 	rm $(NAME) *.o

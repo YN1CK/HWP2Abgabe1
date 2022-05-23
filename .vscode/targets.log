@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun May 22 06:12:10 2022
+# Make data base, printed on Sun May 22 22:20:28 2022
 
 # Variables
 
@@ -25,7 +25,7 @@ GJS_DEBUG_OUTPUT = stderr
 # environment
 CSF_EXCEPTION_PROMPT = 1
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-a5dce43e-fc73-4181-998a-a484ec24d2a6.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-b898a5e8-e7c7-4ff7-b0e5-417c3aae7b14.sock
 # environment
 CSF_XmlOcafResource = /usr/share/opencascade/resources/XmlOcafResource
 # environment
@@ -123,7 +123,7 @@ ZSH = /home/nick/.oh-my-zsh
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 2326
+VSCODE_PID = 29263
 # environment
 XDG_SESSION_TYPE = x11
 # automatic
@@ -273,12 +273,11 @@ SNAP_CONTEXT = OqzC5u6xhZSvFy__I6HEPcuk13oGb1elegkqW97wLlV6kIOjZG10
 # environment
 LC_MEASUREMENT = de_DE.UTF-8
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 2288
+GIO_LAUNCHED_DESKTOP_FILE_PID = 29220
 # environment
 PAGER = less
 # environment
 _ = /usr/bin/make
- 
 # environment
 LC_PAPER = de_DE.UTF-8
 # environment
@@ -293,6 +292,7 @@ CSF_DrawPluginDefaults = /usr/share/opencascade/resources/DrawResources
 CSF_IGESDefaults = /usr/share/opencascade/resources/XSTEPResource
 # environment
 XDG_SESSION_CLASS = user
+ 
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
@@ -356,9 +356,9 @@ SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd
 
 # Directories
 
-# . (device 66309, inode 10496752): 11 files, no impossibilities.
+# . (device 66309, inode 10496752): 13 files, no impossibilities.
 
-# 11 files, no impossibilities in 1 directories.
+# 13 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -450,12 +450,12 @@ program: akku.cpp position.cpp drohne.cpp testbench.cpp
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 22 / storage = 184 B / avg = 8 B
-# current buf: size = 8162 B / used = 184 B / count = 22 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 24 / storage = 195 B / avg = 8 B
+# current buf: size = 8162 B / used = 195 B / count = 24 / avg = 8 B
 
-# strcache performance: lookups = 39 / hit rate = 43%
+# strcache performance: lookups = 41 / hit rate = 41%
 # hash-table stats:
-# Load=22/8192=0%, Rehash=0, Collisions=0/39=0%
-# Finished Make data base on Sun May 22 06:12:10 2022
+# Load=24/8192=0%, Rehash=0, Collisions=0/41=0%
+# Finished Make data base on Sun May 22 22:20:28 2022
 
  

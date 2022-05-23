@@ -15,62 +15,88 @@ drohne::drohne() {
 // Richtungsfunktionen
 void drohne::steige(int m) {
 
-    // Bewegung
-    this->drohnenPos.setPosition(this->drohnenPos.getPosition().x, this->drohnenPos.getPosition().y, this->drohnenPos.getPosition().z + m);
+    for (; m > 0; --m) {
 
-    // Energieabzug
-    this->verbrauch(m);
+        // Bewegung
+        this->drohnenPos.setPosition(this->drohnenPos.getPosition().x,
+                                     this->drohnenPos.getPosition().y,
+                                     this->drohnenPos.getPosition().z + 1);
+
+        // Energieabzug
+        this->verbrauch(1);
+    }
+
 
 }
 
 void drohne::sinke(int m) {
 
-    // Bewegung
-    this->drohnenPos.setPosition(this->drohnenPos.getPosition().x, this->drohnenPos.getPosition().y, this->drohnenPos.getPosition().z - m);
+    for (; m > 0; --m) {
 
-    // Energieabzug
-    this->verbrauch(m);
+        // Bewegung
+        this->drohnenPos.setPosition(this->drohnenPos.getPosition().x,
+                                     this->drohnenPos.getPosition().y,
+                                     this->drohnenPos.getPosition().z - 1);
 
+        // Energieabzug
+        this->verbrauch(1);
+    }
 }
 
 void drohne::fliegVorwaerts(int m) {
 
-    // Bewegung
-    this->drohnenPos.setPosition(this->drohnenPos.getPosition().x + m, this->drohnenPos.getPosition().y, this->drohnenPos.getPosition().z);
+    for (; m > 0; --m) {
 
-    // Energieabzug
-    this->verbrauch(m);
+        // Bewegung
+        this->drohnenPos.setPosition(this->drohnenPos.getPosition().x + 1,
+                                     this->drohnenPos.getPosition().y,
+                                     this->drohnenPos.getPosition().z);
 
+        // Energieabzug
+        this->verbrauch(1);
+    }
 }
 
 void drohne::fliegRueckwaerts(int m) {
 
-    // Bewegung
-    this->drohnenPos.setPosition(this->drohnenPos.getPosition().x - m, this->drohnenPos.getPosition().y, this->drohnenPos.getPosition().z);
+    for (; m > 0; --m) {
 
-    // Energieabzug
-    this->verbrauch(m);
+        // Bewegung
+        this->drohnenPos.setPosition(this->drohnenPos.getPosition().x - 1,
+                                     this->drohnenPos.getPosition().y,
+                                     this->drohnenPos.getPosition().z);
 
+        // Energieabzug
+        this->verbrauch(1);
+    }
 }
 
 void drohne::fliegLinks(int m) {
 
-    // Bewegung
-    this->drohnenPos.setPosition(this->drohnenPos.getPosition().x, this->drohnenPos.getPosition().y - m, this->drohnenPos.getPosition().z);
+    for (; m > 0; --m) {
 
-    // Energieabzug
-    this->verbrauch(m);
+        // Bewegung
+        this->drohnenPos.setPosition(this->drohnenPos.getPosition().x,
+                                     this->drohnenPos.getPosition().y - 1,
+                                     this->drohnenPos.getPosition().z);
 
+        // Energieabzug
+        this->verbrauch(1);
+    }
 }
 
 void drohne::fliegRechts(int m) {
 
-    // Bewegung
-    this->drohnenPos.setPosition(this->drohnenPos.getPosition().x, this->drohnenPos.getPosition().y + m, this->drohnenPos.getPosition().z);
+    for (; m > 0; --m) {
 
-    // Energieabzug
-    this->verbrauch(m);
+        // Bewegung
+        this->drohnenPos.setPosition(this->drohnenPos.getPosition().x,
+                                     this->drohnenPos.getPosition().y + 1,
+                                     this->drohnenPos.getPosition().z);
 
+        // Energieabzug
+        this->verbrauch(1);
+    }
 }
 
 // Systemfunktionen
